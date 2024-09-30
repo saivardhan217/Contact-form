@@ -1,0 +1,91 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Karla", sans-serif;
+}
+body {
+  background-color: hsl(148, 38%, 91%);
+}
+form {
+  height: 100%;
+  width: 30%;
+  margin: auto;
+  margin-top: 10%;
+  padding: 18px;
+  border-radius: 15px;
+  background-color: white;
+}
+.form-names {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: inline-block;
+  width: 49%;
+  justify-content: space-between;
+}
+p,
+label {
+  font-size: 16px;
+}
+#first-name,
+#last-name {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+#email,
+#query {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#email-id {
+  width: 98.5%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+#querybuttons {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  height: 16px;
+}
+.radio-button {
+  width: 48%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+#message {
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+#message-box {
+  width: 98.5%;
+  height: 70px;
+  padding: 5px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  resize: none;
+}
+#marked {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#Submit {
+  background-color: hsl(169, 82%, 27%);
+  width: 98.5%;
+  color: hsl(0, 0%, 100%);
+  height: 35px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
